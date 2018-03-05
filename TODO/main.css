@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    paddin: 20px;
+}
+
+.wrap {
+    padding: 5px;
+    margin: 100px auto;
+    width: 500px;
+    -webkit-box-shadow: 10px 10px 50px grey;
+    -moz-box-shadow: 10px 10px 50px grey;
+    box-shadow: 10px 10px 50px grey;
+    border: 1px solid black;
+}
+
+#input {
+    display: flex;
+    padding: 10px;
+    width: fit-content;
+}
+
+#input input {
+    width: 80%;
+    padding: 10px;
+    background: #fff;
+    color: #000;
+    font-size: 20px;
+    border: 1px solid #0077ff;
+    -webkit-border-radius: 5px 0 0 5px;
+    -moz-border-radius: 5px 0 0 5px;
+    border-radius: 5px 0 0 5px;
+}
+
+#input button {
+    flex: 1;
+    padding: 10px;
+    font-size: 20px;
+    background: #fff;
+    color: #000;
+    border: 1px solid #0077ff;
+    -webkit-border-radius: 0 5px 5px 0;
+    -moz-border-radius: 0 5px 5px 0;
+    border-radius: 0 5px 5px 0;
+}
+
+#list {
+    display: flex;
+    padding: 10px;
+    width: 100%;
+}
+#list ol{
+    width: 100%;
+}
+#list ol li{
+    display: flex;
+    padding: 5px;
+    width: 100%;
+    background: #fff;
+}
+#list ol li span{
+    flex: 1;
+    background: #fff;
+    color: #000;
+    border-bottom: 1px solid #0077ff;
+
+}
+#list ol li button{
+    background: white;
+    color: black;
+    padding: 5px;
+    border: 1px solid #0077ff;
+    border-bottom: none;
+}
